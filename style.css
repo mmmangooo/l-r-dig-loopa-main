@@ -1,0 +1,61 @@
+body {
+  background:#ffecec;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header styling */
+header {
+  background-image: linear-gradient(#3fc21f, #94fa7b);
+  padding: 50px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #eb2d85;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+/* Styling för att korten ska lägga sig på flera
+rader om det blir trångt */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* Styling för korten */
+.plant-card {
+  background: white;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.2rem rgb(41, 41, 41));
+}
+
+.plant-title {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.grey-text {
+  color: grey;
+  font-size: 12px;
+}
+
+.plant-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.info-text {
+  margin: 0;
+}
